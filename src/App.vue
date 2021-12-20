@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/foto pokemon.jpeg">
+    <HelloWorld msg="Welcome to PokeWorld"/>
   </div>
 </template>
 
@@ -24,5 +24,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+div img {
+  width: 70%;
+  height: auto;
 }
 </style>
